@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/ [if lt IE 7 ]
+	:javascript
+		require([ "libs/dd_belatedpng" ], function() { DD_belatedPNG.fix("img, .png_bg"); });
+
+</string>
+	<key>name</key>
+	<string>Require dd_belatedpng</string>
+	<key>scope</key>
+	<string>text.haml</string>
+	<key>tabTrigger</key>
+	<string>requirepng</string>
+	<key>uuid</key>
+	<string>02BE89A8-3E8F-46B5-859B-3B45E4D042C5</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function(${1: ${2:argument} }) {${0:$TM_SELECTED_TEXT}},</string>
+	<key>name</key>
+	<string>Anonymous Function with comma</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>f,</string>
+	<key>uuid</key>
+	<string>156B4EE2-65F7-4F87-9476-0EA6B1D941E7</string>
+</dict>
+</plist>

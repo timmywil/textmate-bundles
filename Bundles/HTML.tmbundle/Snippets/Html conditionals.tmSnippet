@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!--[if lt IE 7 ]&gt; &lt;html lang="en" class="no-js ie ie6 ltie7 ltie8 ltie9"&gt; &lt;![endif]--&gt; 
+&lt;!--[if IE 7 ]&gt;    &lt;html lang="en" class="no-js ie ie7 ltie8 ltie9"&gt; &lt;![endif]--&gt; 
+&lt;!--[if IE 8 ]&gt;    &lt;html lang="en" class="no-js ie ie8 ltie9"&gt; &lt;![endif]--&gt; 
+&lt;!--[if IE 9 ]&gt;    &lt;html lang="en" class="no-js ie ie9"&gt; &lt;![endif]--&gt; 
+&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; &lt;html lang="en" class="no-js"&gt; &lt;!--&lt;![endif]--&gt;</string>
+	<key>name</key>
+	<string>Html conditionals</string>
+	<key>scope</key>
+	<string>text.html, text.haml</string>
+	<key>tabTrigger</key>
+	<string>ieclasses</string>
+	<key>uuid</key>
+	<string>969FC1DE-5643-4E12-A4CD-3A625EB0BE92</string>
+</dict>
+</plist>

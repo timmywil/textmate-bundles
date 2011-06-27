@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script&gt;
+	var _gaq=[["_setAccount","${1:UA-XXXXX-X}"],["_trackPageview"]];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+		s.parentNode.insertBefore(g,s)}(document,"script"));
+&lt;/script&gt;$0</string>
+	<key>name</key>
+	<string>Google Analytics</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>google</string>
+	<key>uuid</key>
+	<string>BA7649AB-4F51-4011-A305-822C041FC6F9</string>
+</dict>
+</plist>

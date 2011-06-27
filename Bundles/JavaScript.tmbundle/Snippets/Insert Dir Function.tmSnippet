@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/** Dir for objects */
+window.dir = function () {
+    if ( this.console ) {
+        console.dir( arguments );
+    }
+};$0</string>
+	<key>name</key>
+	<string>Insert Dir Function</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>insertlog</string>
+	<key>uuid</key>
+	<string>3543C1F7-707A-4C4E-B2D5-6BE124E5364E</string>
+</dict>
+</plist>

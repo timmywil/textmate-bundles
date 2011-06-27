@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @license $1
+ * Copyright (c) 2011 ${2:timmy willison}
+${3: * Dual licensed under the MIT and GPL licenses.
+ * http://timmywillison.com/licence/
+} */
+$0</string>
+	<key>name</key>
+	<string>Closure Licence</string>
+	<key>scope</key>
+	<string>source.js, source.css</string>
+	<key>tabTrigger</key>
+	<string>license</string>
+	<key>uuid</key>
+	<string>603EE98C-681C-440F-BE50-284A4BF8A3A8</string>
+</dict>
+</plist>

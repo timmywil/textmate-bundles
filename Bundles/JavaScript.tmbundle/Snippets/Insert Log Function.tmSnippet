@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/** usage: log('inside coolFunc',this,arguments); */
+window.log = function () {
+    log.history = log.history || [];
+    log.history.push( arguments );
+    if ( this.console ) {
+        console.log( Array.prototype.slice.call( arguments ) );
+    }
+};$0</string>
+	<key>name</key>
+	<string>Insert Log Function</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>insertlog</string>
+	<key>uuid</key>
+	<string>CCB3F13F-9E38-421C-BB2C-86B204C024E2</string>
+</dict>
+</plist>

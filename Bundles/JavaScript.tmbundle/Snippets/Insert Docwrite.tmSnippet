@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// catch all document.write() calls
+(function(doc){
+    var write = doc.write;
+    doc.write = function(q){
+        log('document.write(): ', arguments);
+        if (/docwriteregexwhitelist/.test(q)) write.apply( doc, arguments );
+    };
+})(document);$0</string>
+	<key>name</key>
+	<string>Insert Docwrite</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>insertlog</string>
+	<key>uuid</key>
+	<string>AFC6EDAB-98D6-4792-8B76-071A1833D176</string>
+</dict>
+</plist>

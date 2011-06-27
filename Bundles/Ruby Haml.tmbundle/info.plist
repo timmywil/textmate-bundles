@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>xriva@fo.bet</string>
+	<key>contactName</key>
+	<string>Kevin Ballard</string>
+	<key>description</key>
+	<string>&lt;a href="http://unspace.ca/discover/haml"&gt;HTML Abstraction Markup Language&lt;/a&gt; is a templating engine for Ruby on Rails.</string>
+	<key>name</key>
+	<string>Ruby Haml</string>
+	<key>ordering</key>
+	<array>
+		<string>3C67A3F3-CBB9-4439-86FF-6F7F0746ACA9</string>
+		<string>4C2E088A-2EDB-44DF-9C62-CE0112B4C237</string>
+		<string>3D727049-DD05-45DF-92A5-D50EA36FD035</string>
+		<string>65F8D4BB-97D1-4E45-9C0F-D9C7F40D68C5</string>
+		<string>F5908CE9-16F6-4265-8D97-19E1F166BC03</string>
+		<string>6341E2AE-D1A7-4E1B-BF5D-2A435499AFAF</string>
+		<string>1CE9FDCF-2AD1-475D-BDFF-557CA8E1D886</string>
+		<string>690B3B72-F96E-428F-94DA-3929C451CE66</string>
+		<string>8B8C8B62-A94C-419B-A6A6-E6D40940619C</string>
+		<string>02BE89A8-3E8F-46B5-859B-3B45E4D042C5</string>
+	</array>
+	<key>uuid</key>
+	<string>4618480A-F4C3-40FE-8719-DE54CBDFB92A</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script src="http://ajax.cdnjs.com/ajax/libs/require.js/0.24.0/require.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+//&lt;![CDATA[
+	require({
+		paths: {
+			"jquery": "http://code.jquery.com/jquery-1.6.1.min"
+		},
+		priority: [ "jquery" ],
+		baseUrl: "/js"
+	}, [ ${1:"site"} ]);
+//]]&gt;
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>Require</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>requirejs</string>
+	<key>uuid</key>
+	<string>56AF46BB-785E-4BF0-ADB7-5EE25995C6EE</string>
+</dict>
+</plist>

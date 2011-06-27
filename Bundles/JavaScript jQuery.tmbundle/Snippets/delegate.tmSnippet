@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.delegate(${1:'${2:td}'}, '${3:hover}', function(){
+	${0:// Delegation called}
+});</string>
+	<key>name</key>
+	<string>delegate</string>
+	<key>scope</key>
+	<string>source.js.jquery</string>
+	<key>tabTrigger</key>
+	<string>.delegate</string>
+	<key>uuid</key>
+	<string>A95DE15F-A41A-46FC-AE03-54B46B770DBE</string>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*! 
+//  site.js
+//  relay.io
+//  2010-08-17
+*/
+
+// Main Closure
+(function (\$, window, document, undefined) {
+    var relay = {
+        
+        // It all starts here
+        ready: function() {
+            
+        }
+        
+    }
+    
+    \$(document).ready(relay.ready);
+})(jQuery, this, document);
+
+// usage: log('inside coolFunc',this,arguments);
+window.log = function () {
+    log.history = log.history || [];   // store logs to an array for reference
+    log.history.push(arguments);
+    if(this.console){
+        console.log( Array.prototype.slice.call(arguments) );
+    }
+};
+
+// catch all document.write() calls
+(function(doc){
+  var write = doc.write;
+  doc.write = function(q){ 
+    log('document.write(): ',arguments); 
+    if (/docwriteregexwhitelist/.test(q)) write.apply(doc,arguments);  
+  };
+})(document);</string>
+	<key>name</key>
+	<string>DEFAULT JS FILE</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>default</string>
+	<key>uuid</key>
+	<string>926F63BC-A045-4B20-B00D-99CBAD2C27B4</string>
+</dict>
+</plist>

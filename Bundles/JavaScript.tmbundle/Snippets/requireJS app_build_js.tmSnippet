@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>({
+	appDir: "${1:./}",
+	baseUrl: "${2:js}",
+	dir: "${3:build}",
+
+	paths: {
+		// For tracing dependencies
+		"jquery": "${4:jquery-1.6.1}"
+	},
+
+	optimizeCss: "standard",
+
+	modules: [
+		{
+			// Do not include jQuery in the combined file
+			exclude: [ "jquery" ],
+
+			// Main module
+			name: "${5:md}"
+		}
+	]
+})</string>
+	<key>name</key>
+	<string>requireJS app.build.js</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>requireapp</string>
+	<key>uuid</key>
+	<string>F9274DE6-0E8D-4CF0-9551-D1D56C3E8525</string>
+</dict>
+</plist>

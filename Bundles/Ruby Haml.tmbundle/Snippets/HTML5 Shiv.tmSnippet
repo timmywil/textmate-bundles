@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/[if lt IE 9]
+  %script{:type =&gt; 'text/javascript'}
+    document.createElement("header");
+    document.createElement("hgroup");
+    document.createElement("nav");
+    document.createElement("section");
+    document.createElement("article");
+    document.createElement("footer");
+    document.createElement("aside");
+</string>
+	<key>name</key>
+	<string>HTML5 Shiv</string>
+	<key>scope</key>
+	<string>text.haml</string>
+	<key>tabTrigger</key>
+	<string>shiv</string>
+	<key>uuid</key>
+	<string>1CE9FDCF-2AD1-475D-BDFF-557CA8E1D886</string>
+</dict>
+</plist>

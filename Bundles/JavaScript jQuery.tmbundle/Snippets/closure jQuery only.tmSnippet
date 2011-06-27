@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(function( \$ ) {
+	${0://All code goes here}
+})( jQuery );</string>
+	<key>name</key>
+	<string>closure jQuery only</string>
+	<key>scope</key>
+	<string>source.js.jquery</string>
+	<key>tabTrigger</key>
+	<string>closure</string>
+	<key>uuid</key>
+	<string>F4170759-CAA7-4179-89FC-B61FD7CACBAB</string>
+</dict>
+</plist>

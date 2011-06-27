@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require([ '${1:jquery}' ],
+function( ${3:\$} ) {
+	$0
+});</string>
+	<key>name</key>
+	<string>requireJS require</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>require</string>
+	<key>uuid</key>
+	<string>9DD66F78-226F-4524-B789-117A51BAEFA0</string>
+</dict>
+</plist>

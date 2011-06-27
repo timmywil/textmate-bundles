@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>%script{:src =&gt; "${1:http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js}", :type =&gt; "text/javascript", :charset =&gt; "${2:utf-8}"}
+%script !window.jQuery &amp;&amp; document.write('&lt;script src="${3:js}/jquery-1.4.2.min.js"&gt;&lt;\/script&gt;')
+$0
+</string>
+	<key>name</key>
+	<string>Script Src jQuery</string>
+	<key>scope</key>
+	<string>text.haml</string>
+	<key>tabTrigger</key>
+	<string>scriptsrcjquery</string>
+	<key>uuid</key>
+	<string>690B3B72-F96E-428F-94DA-3929C451CE66</string>
+</dict>
+</plist>
